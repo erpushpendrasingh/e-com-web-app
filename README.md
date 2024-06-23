@@ -1,70 +1,32 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Frontend Task: Develop an E-commerce Website using FakeStoreAPI
+Objective:
+Create an e-commerce website with basic functionalities such as displaying products on the homepage, showing detailed information about each product, and allowing users to add items to their cart.
+Requirements:
+### Homepage:
+Fetch data from the FakeStoreAPI to display a list of products on the homepage.
+Display essential information for each product (e.g., image, title, price).
+Each product should be clickable, leading to its details page.
+### Details Page:
+Upon clicking a product on the homepage, navigate to a details page for that product.
+Fetch detailed information about the selected product from the API (e.g., description, category).
+Display all relevant details about the product.
+## Cart Functionality:
+Implement a cart feature that allows users to add products to their cart.
+Provide buttons or actions on both the homepage and the details page to add items to the cart.
+Display the current contents of the cart, including product names, quantities, and total price.
+Allow users to remove items from the cart or adjust quantities as needed.
+Additional Guidelines:
+Compose your code independently rather than relying on AI or code from others.
+Use React.js for the frontend development.
+Utilize React Router for navigation between different pages.
+Design the website to be responsive and user-friendly.
+Implement error handling for API requests and edge cases (e.g., empty responses).
+Write clean, well-documented code with proper comments.
+Utilize modern best practices and consider code scalability and maintainability.
+Resources:
+FakeStoreAPI Documentation: https://fakestoreapi.com/docs
+Submission:
+Please send an email to the following email addresses: manoj@hocalwire.com, hr@hocalwire.com with the subject line: "ReactJs Project: E-Commerce".
+Send Source code as Zip.
+Optionally, deploy the website to a hosting platform (e.g., Netlify, Vercel) and provide the live URL.
+Deadline: 1 Week
